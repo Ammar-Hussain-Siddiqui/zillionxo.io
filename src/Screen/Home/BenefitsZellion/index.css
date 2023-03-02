@@ -1,0 +1,10 @@
+.benefits_zillion{
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.benefits_img img{
+    width: 100%;
+    height: auto;
+}

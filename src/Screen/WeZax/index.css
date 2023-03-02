@@ -1,0 +1,30 @@
+.bg_we_zax {
+  background-image: url(../../Image/backgroundImg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  height: auto;
+}
+
+.we_zax_heading h1 {
+  color: white;
+  padding-top: 25%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+.bg_we_zax p {
+  color: white;
+  padding-top: 8%;
+  font-size: 20px;
+  text-align: justify;
+  padding-bottom: 30%;
+}
+
+@media (max-width: 414px) {
+  .we_zax_heading h1 {
+    font-size: 28px;
+  }
+  .we_zax_heading p {
+    padding-bottom: -50px;
+  }
+}

@@ -1,0 +1,90 @@
+.stack_main {
+  justify-content: center;
+  gap: 16px;
+}
+.bg_color {
+  background: linear-gradient(rgb(7, 80, 129), rgb(13, 16, 26));
+}
+
+.bg_color2 {
+  background: linear-gradient(rgb(251, 251, 251), rgb(13, 16, 26));
+}
+
+.stact_card {
+  background: linear-gradient(rgb(7, 80, 129), rgb(13, 16, 26));
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  height: auto;
+}
+
+.stact_card_one {
+  background: linear-gradient(rgb(7, 80, 129), rgba(13, 16, 26, 0.6));
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  height: 381px;
+}
+.card_img img {
+  width: 85%;
+  height: auto;
+  padding: 10px;
+}
+
+#test {
+  background: linear-gradient(rgb(13, 14, 22), rgb(3, 66, 108));
+  border-radius: 20px;
+}
+
+#btn_two {
+  background-color: rgb(0, 153, 255);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 20px;
+  padding: 11px;
+}
+#test {
+  color: white;
+  margin: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 414px) {
+  .stact_card_one {
+    height: 950px;
+  }
+  #test {
+    background: linear-gradient(rgb(13, 14, 22), rgb(3, 66, 108));
+    border-radius: 20px;
+    margin-bottom: -20px;
+  }
+}
+
+#btn_twos {
+  background-color: rgb(0, 153, 255);
+  border-radius: 12px;
+  height: 50px;
+}
+
+@media (max-width: 1000px) and (min-width: 415px) {
+  #card_four {
+    margin-top: 50px;
+  }
+  #one_two {
+    margin-top: -14px;
+  }
+  #card_two_more {
+    margin-top: -14px;
+  }
+
+  #card_three {
+    margin-top: -14px;
+  }
+  #card_four1 {
+    margin-top: -14px;
+  }
+  #btn_twos {
+    margin-top: 50%;
+  }
+  #card_four_margin_top{
+    margin-top: 10%;
+  }
+}

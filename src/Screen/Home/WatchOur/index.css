@@ -1,0 +1,23 @@
+.bg_three {
+  background-image: url(../../../Image/bg3.png);
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about_zax_img{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:800px) and (min-width:600px){
+  .about_zax_img{
+    margin-top: 50%;
+  }
+}
+@media (max-width:414px){
+  .about_zax_img{
+    margin-top: -15%;
+    margin-bottom: 20px;
+  }
+}

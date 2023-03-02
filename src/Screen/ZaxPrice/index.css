@@ -1,0 +1,119 @@
+.bg_zax_price {
+  background-color: rgb(14, 14, 22);
+}
+
+.zax_price_text {
+  margin-top: 50px;
+  justify-content: center;
+  gap: 130px;
+}
+
+.zax_price_img {
+  width: 100%;
+  height: auto;
+}
+
+.zillion_aakar_text {
+  padding-top: 50px;
+}
+.zillion_aakar_text h1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.zillion_aakar_text p {
+  color: white;
+  padding-top: 30px;
+  text-align: justify;
+}
+
+.zerrion_aakar_img img {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.how_does_bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Image//img7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.how_does_text h1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 30%;
+  padding-bottom: 30px;
+}
+
+.how_does_text p {
+  color: white;
+  text-align: justify;
+}
+
+.how_does_img img {
+  width: 100%;
+  height: auto;
+  padding-top: 40%;
+}
+
+img.vert-move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+img.vert-move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 800px) and (min-width: 600px) {
+  .vert-move {
+    margin-top: 50%;
+  }
+}
+
+@media (max-width: 414px) {
+    .css-11lq3yg-MuiGrid-root {
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        width: 100%;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .zillion_aakar_text h1{
+        font-size: 20px;
+    }
+    .zerrion_aakar_img img{
+        margin-top: -45%;
+        margin-bottom: 20px;
+    }
+    .how_does_img img{
+        margin-top: -55%;
+        margin-bottom: 20px;
+    }
+}
